@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+#education-container {
+    width: 50%;
+    margin: 0 auto 0 auto;
+    margin-top: 5%;
+    line-height: 2;
+    position: relative;
+    margin-bottom: 50px;
+}
+.janapermi-logo {
+    width: 40%;
+    height: 40%;
+}
+.nobel-logo{
+    width: 40%;
+    height: 40%;
+}
+.herald-logo {
+    width: 40%;
+    height: 40%;
+}
+
+.link-college{
+    text-decoration: none;
+}
+.link-college:hover {
+    color: #93C6E7;
+}
+.about-edu {
+    width: 60%;
+    margin: 0 auto 0 auto;
+}

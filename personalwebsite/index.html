@@ -1,0 +1,100 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+  <body>
+    <header>
+      <div class="switch">
+        <div class="flicker"></div>
+        <div class="moon"></div>
+      </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco_navbar ftco-navbar-light site-navbar-target"
+		id="ftco-navbar">
+		<div class="container">
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav nav ml-auto" style="display: inline;">
+					<li class="nav-item"><a href="#skill-container" class="nav-link"><span>Home</span></a></li>
+					<li class="nav-item"><a href="/About.html" class="nav-link"><span>About</span></a></li>
+					<li class="nav-item"><a href="/contact.html" class="nav-link"><span>Contact</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  
+  
+
+
+    <section class="main">
+      <div class="main-text">
+        <h1>Ashraya Phuyal</h1>
+        <p>Welcome to my Page!</p>
+        <br/>
+        <p>Hi there! as an IT student, I am pursuing my Bachelor's degree in Computer Science and have a strong interest in technology and how it can be utilized to resolve complicated issues and enhance people's lives. My studies have provided me with a solid base in programming languages such as Java, Python, and C++, as well as a broad understanding of various computer science concepts, including algorithms, data structures, and databases. I have also completed several projects that demonstrate my abilities and knowledge, including a web application built using React and Node.js to help users find nearby volunteer opportunities, and a database management system designed for a small business. In my leisure time, I enjoy exploring new technologies and staying up to date with the latest industry trends. Additionally, I am a member of a local coding club and enjoy working with other students on projects. I am eager to continue expanding my skills and putting my knowledge into practice in the real world.</p>
+        <br/>
+      </div>
+      <div class="Ashraya">
+        <img class="Ashraya-pic" src="/images/Ashraya.JPG" alt="Ashraya-gif">
+        <div>
+     
+    </section >
+      
+      <div id="skill-container">
+        
+        <h2>My Skills</h2>
+        <div class="skill-coding">
+            <img class="coding-pic" src="/images/200w.webp" alt="coding-gif">
+            <div class="about-skill">
+                <h3>Programming</h3>
+                <p>Programming refers to a technological process for telling a computer which tasks to perform in order to solve problems. You can think of programming as a collaboration between humans and computers, in which humans create instructions for a computer to follow (code) in a language computers can understand.</p>
+            </div>
+        </div>
+
+        <div class="skill-Pubg">
+            <img class="PUBG-pic" src="/images/PUBG.jpg"
+                alt="PUBG-img">
+            <div class="about-skill">
+                <h3>PUBG Mobile</h3>
+                <p>PUBG Mobile (Chinese: 和平精英; pinyin: Hé Píng Jīng Yīng) is a free-to-play battle royale video game developed by LightSpeed & Quantum Studio, a division of Tencent Games. It is a mobile game adaptation of PUBG: Battlegrounds. It was initially released for Android and iOS on 19 March 2017. </p>
+            </div>
+        </div>
+    </div>
+
+      <script>
+        document.getElementById("contact-form").addEventListener("submit", function(event) {
+  event.preventDefault();
+  
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var message = document.getElementById("message").value;
+
+  if (!name || !email || !message) {
+    alert("Please fill in all the required fields.");
+    return;
+  }
+
+  // Submit the form data to a server-side script or a third-party service.
+
+  alert("Form submitted successfully!");
+});
+
+      </script>
+      
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
